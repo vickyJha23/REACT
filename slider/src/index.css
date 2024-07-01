@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+      .nextSlide{
+         opacity: 0;
+         transform: translateX(100%);
+      }
+      .activeSlide{
+         opacity:1;
+         transform: translateX(0%);
+      }
+      .lastSlide {
+          opacity: 0;
+          transform: translateX(-100%);
+      }
+}

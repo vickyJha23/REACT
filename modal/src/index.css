@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+      .makeInVisible{
+           @apply invisible z-[-10];
+      }
+      .makeVisible{
+          @apply visible z-[10];
+      }
+}

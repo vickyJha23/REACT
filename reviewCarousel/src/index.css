@@ -1,0 +1,12 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;    
+
+@layer components{
+    .font-awesome {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+   }
+}
